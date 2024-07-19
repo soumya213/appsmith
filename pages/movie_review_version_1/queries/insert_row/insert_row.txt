@@ -1,0 +1,16 @@
+INSERT INTO public.tmdb_movie_dataset_v11 (
+"id",
+"title",
+"tagline",
+"genres",
+"keywords",
+"popularity"	
+)
+VALUES (
+	'{{generate_id.myFun1()}}',
+	'{{insert_form.data.Title}}',
+	'{{insert_form.data.Tagline}}',
+	'{{insert_form.data.Genres}}',
+	'{{insert_form.data.Keywords}}',
+	'{{insert_form.data.Popularity}}'
+);

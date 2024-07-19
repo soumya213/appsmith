@@ -1,0 +1,2 @@
+DELETE FROM public."address"
+  WHERE "id" = {{data_table.triggeredRow.id}};

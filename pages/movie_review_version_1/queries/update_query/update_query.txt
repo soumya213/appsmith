@@ -1,0 +1,4 @@
+UPDATE public."tmdb_movie_dataset_v11" SET
+		"genres" = '{{Form1.data.Input1}}',
+		"popularity"='{{Form1.data.Rating1*10}}'
+	WHERE "id" = {{Table1.selectedRow.id}};

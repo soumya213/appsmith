@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.tmdb_movie_dataset_v11 where title ilike '%{{Table1.searchText}}%';

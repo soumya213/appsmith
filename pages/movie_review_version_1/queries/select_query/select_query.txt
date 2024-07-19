@@ -1,0 +1,1 @@
+SELECT * FROM public."tmdb_movie_dataset_v11" LIMIT 10;

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "generate_id",
+    "pageId": "movie_review_version_1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "movie_review_version_1_generate_id",
+  "deleted": false,
+  "gitSyncId": "6699f41844e2905ee530dc3c_af5988b6-f9c6-470a-8733-9030ad354600"
+}

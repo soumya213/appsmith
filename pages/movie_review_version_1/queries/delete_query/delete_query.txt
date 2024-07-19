@@ -1,0 +1,2 @@
+DELETE FROM public."tmdb_movie_dataset_v11"
+  WHERE "id" = {{Table1.selectedRow.id}};
