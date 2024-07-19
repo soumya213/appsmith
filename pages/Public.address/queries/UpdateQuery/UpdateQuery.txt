@@ -1,9 +1,0 @@
-UPDATE public."address" SET
-		"address" = '{{update_form.fieldState.address.isVisible ? update_form.formData.address : update_form.sourceData.address}}',
-		"customer_id" = '{{update_form.fieldState.customer_id.isVisible ? update_form.formData.customer_id : update_form.sourceData.customer_id}}',
-    "city" = '{{update_form.fieldState.city.isVisible ? update_form.formData.city : update_form.sourceData.city}}',
-		"zip_code" = '{{update_form.fieldState.zip_code.isVisible ? update_form.formData.zip_code : update_form.sourceData.zip_code}}',
-		"latitude" = '{{update_form.fieldState.latitude.isVisible ? update_form.formData.latitude : update_form.sourceData.latitude}}',
-		"longitude" = '{{update_form.fieldState.longitude.isVisible ? update_form.formData.longitude : update_form.sourceData.longitude}}',
-		"label" = '{{update_form.fieldState.label.isVisible ? update_form.formData.label : update_form.sourceData.label}}'
-WHERE "id" = {{data_table.selectedRow.id}};

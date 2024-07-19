@@ -3,10 +3,6 @@
     {
       "id": "movie_review_version_1",
       "isDefault": true
-    },
-    {
-      "id": "Public.address",
-      "isDefault": false
     }
   ],
   "viewMode": false,
